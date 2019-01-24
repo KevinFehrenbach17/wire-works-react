@@ -1,0 +1,13 @@
+.about{
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background: var(--dark);
+    border-radius: 20px;
+    width: 100%;
+    height: 70%;
+    margin: 2rem auto;
+    
+  }
