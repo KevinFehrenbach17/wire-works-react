@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import About from './components/About';
 import Service  from './components/Service';
 import WireWorks from './components/wwlogo.png';
+import Projects from './components/Projects';
 
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
@@ -47,6 +48,7 @@ class App extends Component {
         <div className="cards">
           <About />
           <Service />
+          <Projects />
         
         </div>
       
