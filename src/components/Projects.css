@@ -10,3 +10,7 @@
     margin: 1rem;
 }
 
+img :hover {
+    border-radius: 15px;
+}
+

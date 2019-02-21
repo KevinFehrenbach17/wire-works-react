@@ -1,0 +1,19 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 5rem;
+    margin: 2rem;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0.2rem;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}

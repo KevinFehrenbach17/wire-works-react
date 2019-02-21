@@ -11,16 +11,21 @@ export class Projects extends Component {
         <div className="wrapper">
 
             <div className="projImg">
-                <img src = "http://via.placeholder.com/320x180"></img>
+               <h3>Project One</h3>
+               <a href="#"><img src = "http://via.placeholder.com/320x180"></img></a> 
             </div>
+
             <div className="projImg">
-                <img src = "http://via.placeholder.com/320x180"></img>
+                <h3>Project One</h3>
+               <a href="#"><img src = "http://via.placeholder.com/320x180"></img></a> 
             </div>
+
             <div className="projImg">
-                <img src = "http://via.placeholder.com/320x180"></img>
-            </div>            <div className="projImg">
-                <img src = "http://via.placeholder.com/320x180"></img>
+                <h3>Project One</h3>
+               <a href="#"><img src = "http://via.placeholder.com/320x180"></img></a> 
             </div>
+            
+
          </div>
       </div>
     )
