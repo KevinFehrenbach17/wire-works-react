@@ -10,7 +10,12 @@
     margin: 1rem;
 }
 
-img :hover {
-    border-radius: 15px;
+a {
+    color: white;
+}
+
+a :hover {
+    color: var(--yellow);
+    text-decoration: none;
 }
 

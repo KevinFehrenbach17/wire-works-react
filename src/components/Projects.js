@@ -11,18 +11,18 @@ export class Projects extends Component {
         <div className="wrapper">
 
             <div className="projImg">
-               <h3>Project One</h3>
-               <a href="#"><img src = "http://via.placeholder.com/320x180"></img></a> 
+               <a href="#"><h3>Project One</h3>
+               <img src = "http://via.placeholder.com/320x180"></img></a> 
             </div>
 
             <div className="projImg">
-                <h3>Project One</h3>
-               <a href="#"><img src = "http://via.placeholder.com/320x180"></img></a> 
+                <a href="#"><h3>Project One</h3>
+                <img src = "http://via.placeholder.com/320x180"></img></a> 
             </div>
 
             <div className="projImg">
-                <h3>Project One</h3>
-               <a href="#"><img src = "http://via.placeholder.com/320x180"></img></a> 
+                <a href="#"><h3>Project One</h3>
+                <img src = "http://via.placeholder.com/320x180"></img></a> 
             </div>
             
 

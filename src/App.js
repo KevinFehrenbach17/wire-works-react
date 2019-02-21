@@ -4,6 +4,7 @@ import Service  from './components/Service';
 import WireWorks from './components/wwlogo.png';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Requests from './components/Request';
 
 
 
@@ -54,6 +55,7 @@ class App extends Component {
           <Service />
           <Projects />
           <Contact />
+          <Requests />
         
         </div>
       
