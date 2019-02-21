@@ -12,7 +12,7 @@ export class Contact extends Component {
             </div>
             
             <div className="contact">
-                <a href="tel:1-231-883-1736"><i class="fas fa-phone"></i></a> 
+                <a href="tel:1-513-560-3040"><i class="fas fa-phone"></i></a> 
                 <a href="mailto:kevinfehrenbach17@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
 
