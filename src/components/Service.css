@@ -1,8 +1,5 @@
-/* .service{
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2rem;
-    margin-bottom: 2rem;  
-  } */
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

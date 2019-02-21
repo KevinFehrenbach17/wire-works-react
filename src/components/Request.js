@@ -6,9 +6,9 @@ export class Request extends Component {
   render() {
     return (
       <div>
+        <h2 id = "request">Request an Estimate</h2>
         
-        <div className = "wrapper">
-        <h2>Request an Estimate</h2>
+        <div className = "wrapperR">
         
         <form action="mailto:kevinfehrenbach17@gmail.com" method="post" enctype="text/plain">
           
@@ -17,14 +17,11 @@ export class Request extends Component {
             Email:
               <input type="text" name="email" /><br></br>
             Body:
-              <div className="emailB">
-                <input type="text" email="body" size="53" />
-              </div>
               
-
-          
-          <div className = "subButton">
-            <input type="submit" value="Submit" />
+                <input type="text" email="body" size="53" />
+ 
+          <div>
+            <input type="submit" value="Submit" className = "subButton" />
           </div>
             
         </form>

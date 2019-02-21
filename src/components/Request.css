@@ -3,7 +3,8 @@
 .wrapper {
     background-color: var(--dark);
     border-radius: 15px;
-    margin: 2rem;
+    margin: 1rem;
+   
 }
 
 form {
@@ -19,8 +20,15 @@ label {
 }
 
 .subButton {
-    background-color: var(--dark);
-    padding: 3rem;
+    color: white;
+    background-color: var(--darkest);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.subButton :hover{
+    color: var(--darkest);
+    background-color: white;
 }
 
 input {

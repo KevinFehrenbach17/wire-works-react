@@ -8,7 +8,7 @@ export class About extends Component {
       <div className="about">
         
         <div>
-        <h2>About us</h2>
+        <h2 id = "aboutUs">About us</h2>
           <p>Lorem ipsum dolor amet polaroid pinterest cold-pressed fashion axe, stumptown fam roof party disrupt dreamcatcher literally shoreditch. 
               Ugh blog leggings, air plant hammock live-edge vinyl jianbing retro biodiesel franzen. 
               Everyday carry paleo normcore helvetica, lomo kitsch you probably haven't heard of them neutra tumblr four dollar toast. 

@@ -8,19 +8,21 @@ export class Service extends Component {
 
       
 
-      <div className="container">
+      
       <div className="row">
+
+
         
-      <div className="col-sm" style={card}>
-        <h2>Servicing</h2>
+      <div style={card}>
+        <h3 id = "service">Servicing</h3>
                 <p>- Greater Cincinnati</p>
                 <p>- Middletown</p>
                 <p>- Dayton</p>
                 <p>- North Kentucky</p>
           </div>
             
-          <div className="col-sm" style={card}>
-            <h2>Our Services</h2>
+          <div style={card}>
+            <h3>Our Services</h3>
                 <p>- Power And lighting</p>
                 <p>- Design Build, In-House Engineering</p>
                 <p>- New And Remodel</p>
@@ -28,13 +30,13 @@ export class Service extends Component {
                 <p>- Phone And Data, Security Cameras, Fire Alarms</p>
             </div>
         
-            <div className="col-sm" style={card}>
-            <h2>Specialization</h2>
+            <div  style={card}>
+            <h3>Specialization</h3>
                 <p>- Commercial</p>
                 <p>- Retail Stores</p>
             </div>
         </div>
-      </div>
+      
       
     )
   }
@@ -45,7 +47,8 @@ const card = {
     flexDirection: 'column',
     backgroundColor: '#595959',
     borderRadius: '20px',
-    margin: '1rem'
+    margin: '1rem',
+    padding: '3rem',
 }
 
 export default Service
