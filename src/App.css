@@ -1,4 +1,5 @@
 :root {
+  --darkest: #333;
   --darker: #494949;
   --dark: #595959;
   --yellow: #f9f77a;
@@ -27,3 +28,7 @@ h2{
   margin-top: 2rem;
 }
 
+footer {
+  background-color: var(--darkest);
+  padding: 0.25rem;
+}

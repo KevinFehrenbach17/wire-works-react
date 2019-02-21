@@ -7,19 +7,29 @@ export class Request extends Component {
     return (
       <div>
         
+        <div className = "wrapper">
         <h2>Request an Estimate</h2>
-        <form>
-          <label>
+        
+        <form action="mailto:kevinfehrenbach17@gmail.com" method="post" enctype="text/plain">
+          
             Name:
               <input type="text" name="name" />
-          </label>
-
-            <label>
             Email:
-              <input type="text" name="name" />
-          </label>
-        <input type="submit" value="Submit" />
+              <input type="text" name="email" /><br></br>
+            Body:
+              <div className="emailB">
+                <input type="text" email="body" size="53" />
+              </div>
+              
+
+          
+          <div className = "subButton">
+            <input type="submit" value="Submit" />
+          </div>
+            
         </form>
+
+        </div>
 
       </div>
     )

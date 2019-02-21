@@ -1,3 +1,11 @@
+
+
+.wrapper {
+    background-color: var(--dark);
+    border-radius: 15px;
+    margin: 2rem;
+}
+
 form {
     color: white;
 }
@@ -6,11 +14,21 @@ label {
     font-size: 1.5rem;
 }
 
+.emailB {
+
+}
+
+.subButton {
+    background-color: var(--dark);
+    padding: 3rem;
+}
+
 input {
-    background-color: var(--darker);
+    background-color: white;
     color: black;
     padding: 0.5rem;
     margin: 1.5rem;
     border-radius: 15px;
     border-color: var(--dark);
+    text-align: left;
 }
