@@ -1,7 +1,7 @@
 
 
-.wrapper {
-    background-color: var(--dark);
+.wrapperr {
+    background-color: var(--dark)er;
     border-radius: 15px;
     margin: 1rem;
    
@@ -24,10 +24,11 @@ label {
     background-color: var(--darkest);
     padding-left: 2rem;
     padding-right: 2rem;
+    cursor: pointer;
 }
 
 .subButton :hover{
-    color: var(--darkest);
+    color: var(--dark);
     background-color: white;
 }
 

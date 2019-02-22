@@ -5,7 +5,7 @@ import './About.css';
 export class About extends Component {
   render() {
     return (
-      <div className="about">
+      <div className="about" id = "aboutUs">
         
         <div>
         <h2 id = "aboutUs">About us</h2>

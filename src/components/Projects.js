@@ -5,8 +5,8 @@ import './Projects.css';
 export class Projects extends Component {
   render() {
     return (
-      <div className="container">
-        <h2 id = "projects">Projects</h2>
+      <div className="container" id = "projects"> 
+        <h2>Projects</h2>
         
         <div className="wrapper">
 

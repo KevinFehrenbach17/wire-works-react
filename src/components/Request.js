@@ -5,8 +5,8 @@ import './Request.css';
 export class Request extends Component {
   render() {
     return (
-      <div>
-        <h2 id = "request">Request an Estimate</h2>
+      <div  id = "request">
+        <h2>Request an Estimate</h2>
         
         <div className = "wrapperR">
         
@@ -18,7 +18,7 @@ export class Request extends Component {
               <input type="text" name="email" /><br></br>
             Body:
               
-                <input type="text" email="body" size="53" />
+                <input type="text" name="body" size="30" />
  
           <div>
             <input type="submit" value="Submit" className = "subButton" />

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat');
+
 :root {
   --darkest: #333;
   --darker: #494949;
@@ -6,6 +8,7 @@
 }
 
 * {
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: white;
   font-family: sans-serif;
@@ -20,12 +23,18 @@ body{
 }
 
 h1{
+  font-family: 'Merriweather', serif;
   margin-top: 2rem;
   margin-bottom: 4rem;
 }
 
 h2{
+  font-family: 'Merriweather', serif;
   margin-top: 2rem;
+}
+
+a {
+  font-family: 'Merriweather', serif;
 }
 
 footer {
