@@ -1,14 +1,18 @@
 import React, { Component } from 'react'
 
+import WireWorks from './wwlogo.png';
+
 import './Request.css';
 
 export class Request extends Component {
   render() {
     return (
       <div  id = "request">
+      <img src={WireWorks} className="container" style={wwImg}/>
         <h2>Request an Estimate</h2>
         
         <div className = "wrapperR">
+          
         
         <form action="mailto:kevinfehrenbach17@gmail.com" method="post" enctype="text/plain">
           
@@ -23,6 +27,7 @@ export class Request extends Component {
           <div>
             <input type="submit" value="Submit" className = "subButton" />
           </div>
+
             
         </form>
 
@@ -31,6 +36,13 @@ export class Request extends Component {
       </div>
     )
   }
+}
+
+const wwImg = {
+  
+  marginBottom: '3rem',
+  height: '50%',
+  width: '50%'
 }
 
 

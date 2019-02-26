@@ -8,7 +8,6 @@ export class Contact extends Component {
       <div  id = "contact">
         <h2>Contact Us</h2>
             <div className="paragraph">
-            <p>For more information about our services, please either contact or call us!</p>
             </div>
             
             <div className="contact">
@@ -16,6 +15,7 @@ export class Contact extends Component {
                 <a href="mailto:kevinfehrenbach17@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
 
+            <p>For more information about our services, please either contact or call us!</p>
         
       </div>
     )

@@ -14,7 +14,7 @@ export class Service extends Component {
 
         
       <div style={card}>
-        <h3>Servicing</h3>
+        <h3>Servicing:</h3>
                 <div className= "area">
                   <p>- Greater Cincinnati</p>
                   <p>- Middletown</p>
@@ -25,7 +25,7 @@ export class Service extends Component {
           </div>
             
           <div style={card}>
-            <h3>Our Services</h3>
+            <h3>Our Services:</h3>
                 <p>- Power And lighting</p>
                 <p>- Design Build, In-House Engineering</p>
                 <p>- New And Remodel</p>
@@ -36,13 +36,15 @@ export class Service extends Component {
             </div>
         
             <div  style={card}>
-            <h3>Specialization</h3>
+            <h3>Specialization:</h3>
+              <div className="spec">
                 <p>- Commercial</p>
                 <p>- Retail Stores</p>
                 <p>- Resturants</p>
                 <p>Tenant Finished Offices</p>
                 <p>- Energy Effecent Lighting <br>
                   </br>Design and Retro Fit</p>
+              </div>
             </div>
         </div>
       

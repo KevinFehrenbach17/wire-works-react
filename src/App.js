@@ -67,9 +67,13 @@ class App extends Component {
           <Projects />
           <Contact />
           
-          <Link to="/request">
-            <h2>Request an Estimate</h2>
-          </Link>
+
+          <div className="req">
+            <Link to="/request">
+              <h2>Request an Estimate</h2>
+            </Link>
+          </div>
+
           
         
           </React.Fragment>

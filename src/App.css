@@ -37,7 +37,14 @@ a {
   font-family: 'Merriweather', serif;
 }
 
-footer {
-  background-color: var(--darkest);
-  padding: 0.25rem;
+.req {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  margin-right:  auto;
+  margin-left: auto;
+  background-color: var(--dark);
+  width: 100%;
+  border-radius: 15px;
+  padding: 0.5rem;
+  
 }

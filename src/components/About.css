@@ -3,10 +3,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3rem;
+    padding: 1.5rem;
     background: var(--dark);
     border-radius: 20px;
-    width: 85%;
+    width: 80%;
     height: 70%;
     margin: 2rem auto;
     
