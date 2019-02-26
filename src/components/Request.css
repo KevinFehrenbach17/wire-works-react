@@ -5,6 +5,7 @@
     border-radius: 15px;
     margin: 1rem;
    
+   
 }
 
 form {
@@ -25,6 +26,8 @@ label {
     padding-left: 2rem;
     padding-right: 2rem;
     cursor: pointer;
+   
+    
 }
 
 .subButton :hover{

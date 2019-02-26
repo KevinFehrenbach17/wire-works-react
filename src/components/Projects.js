@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 
 import './Projects.css';
 
@@ -11,18 +12,18 @@ export class Projects extends Component {
         <div className="wrapper">
 
             <div className="projImg">
-               <a href="#"><h3>Project One</h3>
-               <img src = "http://via.placeholder.com/320x180"></img></a> 
+               <Link to="/ProjectOne"><h3>Project One</h3></Link>
+               <img src = "http://via.placeholder.com/260x170"></img>
             </div>
 
             <div className="projImg">
-                <a href="#"><h3>Project One</h3>
-                <img src = "http://via.placeholder.com/320x180"></img></a> 
+              <Link to="/ProjectTwo"><h3>Project One</h3></Link>
+                <img src = "http://via.placeholder.com/260x170"></img>
             </div>
 
             <div className="projImg">
-                <a href="#"><h3>Project One</h3>
-                <img src = "http://via.placeholder.com/320x180"></img></a> 
+              <Link to="/ProjectOne"><h3>Project One</h3></Link>
+                <img src = "http://via.placeholder.com/260x170"></img>
             </div>
             
 

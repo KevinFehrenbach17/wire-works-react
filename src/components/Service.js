@@ -57,7 +57,7 @@ const card = {
     backgroundColor: '#595959',
     borderRadius: '20px',
     margin: '1rem',
-    padding: '3rem',
+    padding: '2rem',
 }
 
 export default Service
