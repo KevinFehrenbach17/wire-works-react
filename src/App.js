@@ -98,8 +98,8 @@ class App extends Component {
 const wwImg = {
   
   margin: '0rem',
-  height: '75%',
-  width: '75%'
+  height: '50%',
+  width: '50%'
 }
 
 export default App;

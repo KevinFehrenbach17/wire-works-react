@@ -26,13 +26,18 @@ export class Service extends Component {
             
           <div style={card}>
             <h3>Our Services:</h3>
-                <p>- Power And lighting</p>
-                <p>- Design Build, In-House Engineering</p>
+              <div className="serv">
+              <p>- Power And lighting</p>
+                <p>- Design Build,<br>
+                </br> In-House Engineering</p>
                 <p>- New And Remodel</p>
                 <p>- Trouble Shooting And <br>
                   </br>Hazardous Wiring Repairs</p>
-                <p>- Phone And Data, Security Cameras,<br>
+                <p>- Phone And Data, <br>
+                </br>Security Cameras,<br>
                   </br> Fire Alarms</p>
+              </div>
+
             </div>
         
             <div  style={card}>

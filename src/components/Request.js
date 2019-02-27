@@ -22,7 +22,7 @@ export class Request extends Component {
               <input type="text" name="email" /><br></br>
             Body:
               
-                <input type="text" name="body" size="30" />
+                <input type="text" name="body" size="30" className="eBody"/>
  
           <div>
             <input type="submit" value="Submit" className = "subButton" />
